@@ -25,5 +25,8 @@ package-lock.json
 /build*
 /build/*
 # Editor/IDE
+.history
+.vscode
 .idea
+.todo*
 packages/api/etc/
