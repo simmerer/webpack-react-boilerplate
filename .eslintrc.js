@@ -1,5 +1,7 @@
 module.exports = {
   extends: ['airbnb', 'plugin:prettier/recommended', 'prettier/react'],
+  plugins: ['babel'],
+  parser: 'babel-eslint',
   env: {
     browser: true,
     commonjs: true,
@@ -8,6 +10,8 @@ module.exports = {
     node: true,
   },
   rules: {
+    'no-invalid-this': 0,
+    'babel/no-invalid-this': 1,
     'jsx-a11y/href-no-hash': ['off'],
     'react/jsx-filename-extension': ['warn', { extensions: ['.js', '.jsx'] }],
     'max-len': [
