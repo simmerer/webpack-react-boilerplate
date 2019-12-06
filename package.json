@@ -16,11 +16,6 @@
       "git add"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "jest": {
     "testEnvironment": "jsdom",
     "moduleDirectories": [
@@ -111,7 +106,6 @@
     "eslint-watch": "6.0.1",
     "file-loader": "4.2.0",
     "html-webpack-plugin": "3.2.0",
-    "husky": "3.1.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.9.0",
     "jest-css-modules-transform": "3.1.0",
