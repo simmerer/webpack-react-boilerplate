@@ -1,8 +1,8 @@
 import React from 'react';
 import { mount } from 'enzyme';
 
-import App from '../src/App';
-import HelloWorld from '../src/components/hello-world';
+import App from '../src/js/App';
+import HelloWorld from '../src/js/components/hello-world';
 
 describe('<App />', () => {
   const wrap = mount(<App />);
